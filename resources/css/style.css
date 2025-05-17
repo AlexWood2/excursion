@@ -15,3 +15,25 @@ p {
   border-radius: 5px;
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  min-height: 100vh; /* Allows the page to grow if content is taller */
+  margin: 0;
+  padding: 2rem; /* Adds breathing room around the content */
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+}
